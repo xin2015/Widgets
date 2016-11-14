@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="31efcd66-70cd-4397-ab5c-aa4445130af1" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://cityphoto.suncereltd.cn:18405/DataCenterWCF/MeteorologyData.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MeteorologyData.xsd" MetadataType="Schema" ID="8f65b219-83a9-4b21-84c9-b0664a901744" SourceId="1" SourceUrl="http://cityphoto.suncereltd.cn:18405/DataCenterWCF/MeteorologyData.svc?xsd=xsd2" />
+    <MetadataFile FileName="MeteorologyData.wsdl" MetadataType="Wsdl" ID="21ec361d-ad7b-487d-ab49-8c86cd1b0ddb" SourceId="1" SourceUrl="http://cityphoto.suncereltd.cn:18405/DataCenterWCF/MeteorologyData.svc?wsdl" />
+    <MetadataFile FileName="MeteorologyData1.xsd" MetadataType="Schema" ID="46c978aa-5c2e-45d4-b562-164ead3c1576" SourceId="1" SourceUrl="http://cityphoto.suncereltd.cn:18405/DataCenterWCF/MeteorologyData.svc?xsd=xsd1" />
+    <MetadataFile FileName="MeteorologyData2.xsd" MetadataType="Schema" ID="d4ef7b2c-b859-435a-8fa8-7bb04447cca6" SourceId="1" SourceUrl="http://cityphoto.suncereltd.cn:18405/DataCenterWCF/MeteorologyData.svc?xsd=xsd3" />
+    <MetadataFile FileName="MeteorologyData.disco" MetadataType="Disco" ID="290352ff-0b7b-4cfc-85b8-df687f5ec8c1" SourceId="1" SourceUrl="http://cityphoto.suncereltd.cn:18405/DataCenterWCF/MeteorologyData.svc?disco" />
+    <MetadataFile FileName="MeteorologyData3.xsd" MetadataType="Schema" ID="381d8dc3-f290-4de8-b621-751fa96057cc" SourceId="1" SourceUrl="http://cityphoto.suncereltd.cn:18405/DataCenterWCF/MeteorologyData.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
