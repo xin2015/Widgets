@@ -64,7 +64,7 @@ namespace Widgets.DataCenterDataSync40
                     {
                         List<City_WeatherForecastInfo> list = client.GetDayForecastData(new string[] { NMCCityCode }, beginTime, endTime).ToList();
                         list.ForEach(o => o.CityCode = CityCode);
-                        SqlHelper.Default.Insert(list.GetDataTable("City_WeatherForecastInfo", "ExtensionData"));
+                        SqlHelper.Default.Insert(list.GetDataTable("City_WeatherForeastInfo", "ExtensionData"));
                         result = string.Format("同步城市气象7天预报数据成功！{0}", DateTime.Now);
                     }
                 }
