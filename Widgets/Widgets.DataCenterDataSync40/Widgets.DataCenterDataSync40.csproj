@@ -69,6 +69,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Converts\ConvertBase.cs" />
     <Compile Include="Extensions\DataTableExtension.cs" />
     <Compile Include="Extensions\EnumerableExtension.cs" />
     <Compile Include="SqlHelper.cs" />
@@ -180,7 +181,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Converts\" />
     <Folder Include="Entities\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

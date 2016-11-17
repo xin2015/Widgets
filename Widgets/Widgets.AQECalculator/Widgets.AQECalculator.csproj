@@ -49,7 +49,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Modules.AQE">
-      <HintPath>..\..\..\..\Module\Modules.AQE.dll</HintPath>
+      <HintPath>..\..\..\..\Modules\Modules.AQE.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
