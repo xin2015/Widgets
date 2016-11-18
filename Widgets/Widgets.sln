@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Widgets.AQECalculator", "Wi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Widgets.DataCenterDataSync40", "Widgets.DataCenterDataSync40\Widgets.DataCenterDataSync40.csproj", "{BE93D598-1491-4BCD-976F-026936193649}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Widgets.QHEnvQFWSDataSync40", "Widgets.QHEnvQFWSDataSync40\Widgets.QHEnvQFWSDataSync40.csproj", "{FF0009A8-3BB6-4293-A2E3-73D24383232D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BE93D598-1491-4BCD-976F-026936193649}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE93D598-1491-4BCD-976F-026936193649}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE93D598-1491-4BCD-976F-026936193649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF0009A8-3BB6-4293-A2E3-73D24383232D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0009A8-3BB6-4293-A2E3-73D24383232D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF0009A8-3BB6-4293-A2E3-73D24383232D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF0009A8-3BB6-4293-A2E3-73D24383232D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
